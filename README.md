@@ -33,7 +33,7 @@ sudo apt-get install tesseract-ocr* liblept5 leptonica-progs libleptonica-dev im
 ### Install Frappe application
 
 ```sh
-bench get-app --branch develop erpnext_ocr https://github.com/Monogramm/erpnext_ocr
+bench get-app erpnext_ocr https://github.com/bvisible/erpnext_ocr
 bench install-app erpnext_ocr
 ```
 
