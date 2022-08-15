@@ -4,7 +4,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e154ec72926346d4ba4951c25d906d33)](https://www.codacy.com/gh/Monogramm/erpnext_ocr?utm_source=github.com&utm_medium=referral&utm_content=Monogramm/erpnext_ocr&utm_campaign=Badge_Grade)
 [![Coverage Status](https://coveralls.io/repos/github/Monogramm/erpnext_ocr/badge.svg?branch=master)](https://coveralls.io/github/Monogramm/erpnext_ocr?branch=master)
 
-## ERPNext OCR
+## ERPNext OCR V14
 
 > :alembic: **Experimental** Frappe OCR application with [tesseract](https://github.com/tesseract-ocr/tesseract).
 
@@ -27,7 +27,7 @@ See [Taiga.io](https://tree.taiga.io/project/monogrammbot-monogrammerpnext_ocr/ 
 Install tesseract-ocr, plus imagemagick and ghostscript (to work with pdf files) using this command on Debian:
 
 ```sh
-sudo apt-get install tesseract-ocr* liblept5 leptonica-progs libleptonica-dev imagemagick libmagickwand-dev ghostscript
+sudo apt-get install tesseract-ocr* liblept5 leptonica-progs libleptonica-dev imagemagick libmagickwand-dev ghostscript libtesseract-dev
 ```
 
 ### Install Frappe application
